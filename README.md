@@ -5,5 +5,5 @@ simple javascript carousel
 npm i -g gulp
 ## install packages
 npm i our yarn
-##start gulpfil
+## start gulpfil
 gulp
