@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Document
+        link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.0.6/css/all.css")
+        link(rel="stylesheet", href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css")
+        link(rel="stylesheet", href="assets/styles/main.css")
+    body
+        .container.py-5
+            h1 Carousel  !!
+            .slider
+                .slide(style="background: blue")
+                    |1
+                .slide(style="background: red")
+                    |2
+                .slide(style="background: green")
+                    |3
+                .slide(style="background: teal")
+                    |4
+                .slide(style="background: orange")
+                    |5
+                .slide(style="background: yellow")
+                    |6
+                .controls
+                    a.prev(href="#"): i.fas.fa-chevron-left
+                    a.next(href="#"): i.fas.fa-chevron-right
+        script(src="assets/scripts/app.js")
